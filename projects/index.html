@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ryan Heidema">
+    <meta name="keywords" content="ryan heidema website">
+    <meta name="author" content="Ryan Heidema">
+    <title>Ryan Heidema - Projects</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/site.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+    <div>
+        <main role="main" class="pb-3">
+            <nav class="navbar navbar-expand navbar-dark bg-dark sticky-top thick-border">
+                <div class="container">
+                    <div>
+                        <ul class="navbar-nav mr-auto w-100">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html"><u>Home</u> <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#About"><u>About</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#Projects"><u>Projects</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html#Contact"><u>Contact</u></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="pt-5" id="allProjects">
+                <div class="text-center">
+                    <h1 class="display-4"><u>Projects</u></h1>
+                </div>
+                <div class="container py-4">
+                    <div class="card mb-5">
+                        <div class="card-header">
+                            <h5 class="mb-1"><u>Boggle Solver</u></h5>
+                            <p class="text-muted text-weight-light mb-0">backtracking, dfs</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="card-text">
+                                            <p>
+                                                This project is a 4x4 Boggle solver using backtracking. The inspiration for this project came from my family, and although we play a lot of Boggle, we're never quite sure how well we really did. Because of this, I decided to code an algorithm that would give me the solutions to any board. After thinking for some time, I decided on a backtracking algorithm to search for solutions efficiently and store them in a space-optimized manner.
+                                            </p>
+                                            <p>
+                                                Originally, the code for this project was written in C++ using many of the STL's data structures, but I adapted it to C# to interface with this website, but my free Azure account doesn't allow for so much computing. However, by leveraging the power of ASP.NET Core and its ease of use with forms, I should be able to add in the web component soon. Additional things to add to this application on the web side are more comprehensive form validation, logging a "high score" board, and adding functionality to automattically tab over to the next input space.
+                                            </p>
+                                            <p>
+                                                Make sure to check out this project's GitHub to get in-depth coverage of the algorithm I implemented and the data structures I used to accomplish this!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text text-muted mb-1"><i>Personal Project</i></p>
+                                    <p class="card-text text-muted text-weight-light">C++, C#</p>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="https://github.com/rheidem/Boggle-Solver" target="_blank" class="fa fa-github-square text-right" style="font-size:36px; color: #212529;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="EventScheduler" style="height:1px"></div>
+                    </div>
+                    <div class="card mb-5">
+                        <div class="card-header">
+                            <h5 class="mb-1"><u>Event Scheduler</u></h5>
+                            <p class="text-muted text-weight-light mb-0">backtracking, dfs, big-o</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>
+                                    My inspiration for this project came from talking with my girlfriend and her mom at a horse riding competition. In the world of Eventing, technology is relatively new and I saw a way I could put some of my knowledge on backtracking algorithms to use. At these Events, there are multiple riders riding in several divisions, many of which have the same coach. Each rider has three ride times throughout multiple days (one for each Event) and there are often conflicts between riders who have the same coach. Because of these time-based conflicts, I immediately had the idea to solve this problem with backtracking.
+                                </p>
+                                <p>
+                                    Now if I lost you in the paragraph above, don't worry, to simplify, this is a C++ project to solve time-based conflicts between coaches in a complex sporting event that has multiple start times and end times.  
+                                </p>
+                                <p>
+                                    This project is presented as a solution to this time-based conflict. The user inputs all relevant information and is presented with a non-conflicting schedule for all of the riders in any competition. Check out the algorithmic details on GitHub!
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text text-muted mb-1"><i>Personal Project</i></p>
+                                    <p class="card-text text-muted text-weight-light">C++</p>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="https://github.com/rheidem/Event-Scheduler" target="_blank" class="fa fa-github-square text-right" style="font-size:36px; color: #212529;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="PersonalWebsite" style="height:1px"></div>
+                    </div>
+                    <div class="card mb-5">
+                        <div class="card-header">
+                            <h5 class="mb-1"><u>Personal Website</u></h5>
+                            <p class="text-muted text-weight-light mb-0">web-app, mailkit, azure</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>
+                                    Although I had intentions to start this project way long ago, I had the time and knowledge to work on this website during the summer of 2020. It was built using ASP.NET Core, which inherently uses C#, HTML/CSS, etc., but there were multiple challenges I faced when finalizing the site.
+                                </p>
+                                <p>
+                                    For one, I greatly wanted to add the Contacts section where users can automatically send me an email from this site. I accomplished this using Mailkit and a shell-account that automatically sends its emails to my personal account. Other challenges included the parallax background on the home page, which I had to write side projects for to randomly generate the stars.
+                                </p>
+                                <p>
+                                    All in all, I am proud of the website and have many future plans for improvement including JavaScript animations and usage as well as reworking the site into a completely new framework.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text text-muted mb-1"><i>Personal Project</i></p>
+                                    <p class="card-text text-muted text-weight-light">C#, HTML/CSS, JavaScript, Bootstrap</p>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="https://github.com/rheidem/Personal-Website" target="_blank" class="fa fa-github-square text-right" style="font-size:36px; color: #212529;"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="UPSHackathon" style="height:1px"></div>
+                    </div>
+                    <div class="card mb-5">
+                        <div class="card-header">
+                            <h5 class="mb-1"><u>UPS 2020 Hackathon</u></h5>
+                            <p class="text-muted text-weight-light mb-0">web-app, hackathon-project</p>
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <p>
+                                    The Career Constructor is a quiz-making web tool for recruiters and talent acquisition specialists to screen applicants based on relevant knowledge. It allows users to create questions, group these questions into quizzes, and assign and grade these quizzes to and from applicants. The value of this project is two-fold. One, it allows HR specialists and managers an easy way to ensure their applicants have relevant knowledge, and two, it highlights candidates with this knowledge in the interview process. The application is aimed towards interns who don't have much real-world experience but have the technical skills. By taking these quizzes they show off what they know, essentially constructing their careers.
+                                </p>
+                                <p>
+                                    The project was built using ASP.NET Core, which inherently pulled on C#, HTML/CSS, etc.. We used a local SQL database for storing questions, quizzes, and users, but our group had intentions to use cloud services and extend this application much further than we were able to in just a short two day time period.
+                                </p>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="card-text text-muted mb-1"><i>Work-related Project</i></p>
+                                    <p class="card-text text-muted text-weight-light">C#, HTML/CSS, JavaScript, SQL</p>
+                                </div>
+                                <div class="col text-right">
+                                    <a href="https://github.com/rheidem/UPS-Hackathon-2020" target="_blank" class="fa fa-github-square text-right" style="font-size:36px; color: #212529;"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container text-center py-4">
+                <a class="btn btn-outline-dark rounded-0" href="../index.html">Home Page</a>
+            </div>
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            Ryan Heidema &copy; 2020
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
