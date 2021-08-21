@@ -89,7 +89,7 @@
                     </div>
                     <div class="row py-3">
                         <div class="col text-center lead text-muted">	
-                            React, Flask, Django, .NET Core, Xamarin, Bootstrap
+                            React, Flask, Django, .NET Core, Xamarin, Bootstrap, Azure, AWS
                         </div>
                     </div>
                     <hr />
@@ -211,7 +211,7 @@
                 <div class="container">
                     <div class="py-3">
                         <p>
-                            The projects included below illustrate some of my interests and talents. They showcase the different technologies I know how to implement and the concepts I find most fascinating. Click on the <span class="text-orange-one">Learn More</span> to get an in depth look at the inspiration, implementation, and utilization of these projects!
+                            The projects included below illustrate some of my interests and talents. They showcase the different technologies I have used and the concepts I find most fascinating. Click on the <span class="text-orange-one">Learn More</span> to get an in depth look at the inspiration, implementation, and utilization of these projects!
                         </p>
                         <p class="text-lead text-orange-one">
                             Highlighted projects below are my favorites.
@@ -221,50 +221,68 @@
                     <div class="card-columns pt-4">
                         <div class="card">
                             <div class="card-header">
+                                <h5><u class="text-orange-one">Wikipedia Search Engine</u></h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Wrote MapReduce jobs in Python to process large amounts of textual data, in the form of Wikipedia pages. Extended this to a full-stack app to search through thousands of pages.</p>
+                                <p class="card-text text-muted text-weight-light">Python, Flask, Hadoop, SQLite, React, HTML, CSS</p>
+                                <a class="btn btn-dark rounded-0 text-white" href="projects/index.html#SearchEngine">Learn More</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
                                 <h5><u>Personal Website</u></h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">With the web development skills I gained from UPS, school, and much of the internet, I decided to share a little about me to the world. There's a few interesting parts of the site including my parallax home screen and the use of MailKit.</p>
-                                <p class="card-text text-muted text-weight-light">C#, HTML/CSS, JavaScript</p>
-                                <a class="btn btn-dark rounded-0 text-white" href="projects/index.html#PersonalWebsite">Learn More</a>
+                                <p class="card-text">With the web development skills I've gained through my internships, school, and much of the internet, I decided to share a little about me to the world! This website is now hosted with Github Pages.</p>
+                                <p class="card-text text-muted text-weight-light">HTML, CSS, JavaScript, Bootstrap</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h5><u class="text-orange-one">Event Scheduler</u></h5>
+                                <h5><u>Boggle Solver</u></h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">A tool to solve time-based conflicts for sporting events and coaches. Implemented specifically to tackle problems that arise in Eventing. Uses backtracking and principles of OOP extensively.</p>
-                                <p class="card-text text-muted text-weight-light">C++</p>
-                                <a class="btn btn-dark rounded-0 text-white" href="projects/index.html#EventScheduler">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h5><u>Puzzle Solver</u></h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Command line puzzle solving algorithm using both BFS and DFS to solve 3D maze efficiently. Made very extensive use of intricate unit-testing to ensure reliability.</p>
-                                <p class="card-text text-muted text-weight-light">C++</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h5><u class="text-orange-one">Boggle Solver</u></h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Efficient time & space backtracking algorithm to solve a 4x4 Boggle grid, written in both C++ and again in C# to interface with this website. Demo coming soon!</p>
+                                <p class="card-text">Efficient time & space backtracking algorithm to solve a 4x4 Boggle grid, written in both C++ and again in C# to interface with .NET backend websites. Demo coming soon!</p>
                                 <p class="card-text text-muted text-weight-light">C++, C#</p>
                                 <a class="btn btn-dark rounded-0 text-white" href="projects/index.html">Learn More</a>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h5><u>TSP Heuristics & Optimization</u></h5>
+                                <h5><u>COVID-19 Twitter Dashboard</u></h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Implementing various MST algorithms as well as a Branch and Bound algorithm to solve the Travelling Salesperson Problem. Explored multiple heuristics as well as an optimal solution to the TSP.</p>
+                                <p class="card-text">In tandem with other U of M students, used Twitter API to collect and classify sentiment towards COVID-19 public policy through Tweets. Displayed regional data to frontend Vue.js app.</p>
+                                <p class="card-text text-muted text-weight-light">Python, Flask, Vue.js</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5><u class="text-orange-one">Custom MapReduce Server</u></h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Created MapReduce framework in Python, a single machine, multi-process, multi-threaded server that executes user-submitted jobs (also in Python) with fault tolerance.</p>
+                                <p class="card-text text-muted text-weight-light">Python</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5><u>Event Scheduler</u></h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">A CLI tool to solve time-based conflicts for sporting events and coaches. Implemented specifically to tackle problems that arise in Eventing. Uses backtracking and principles of OOP extensively.</p>
                                 <p class="card-text text-muted text-weight-light">C++</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h5><u class="text-orange-one">ARmaps</u></h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Designed and developed augmented-reality mapping application for iOS to direct users to attractions within entertainment venues. Worked with other students at U of M for senior design project.</p>
+                                <p class="card-text text-muted text-weight-light">Python, Flask, PostgreSQL, Swift, Docker</p>
+                                <a class="btn btn-dark rounded-0 text-white" href="projects/index.html#ARmaps">Learn More</a>
                             </div>
                         </div>
                         <div class="card">
@@ -272,36 +290,17 @@
                                 <h5><u>UPS 2020 Hackathon</u></h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">The Career Constructor: a quiz-making tool for talent acquisition specialists to filter applicants for talent and relevant technical knowledge. However, these technical quizzes can jumpstart opportunity and construct your career.</p>
-                                <p class="card-text text-muted text-weight-light">C#, HTML/CSS, JavaScript, SQL</p>
-                                <a class="btn btn-dark rounded-0 text-white" href="projects/index.html#UPSHackathon">Learn More</a>
+                                <p class="card-text">The Career Constructor: a web-based quiz-making tool for talent acquisition specialists to filter applicants for talent and relevant technical knowledge. However, these technical quizzes can jumpstart opportunity and construct your career.</p>
+                                <p class="card-text text-muted text-weight-light">C#, .NET WebApi, MS SQL, HTML, CSS</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-header">
-                                <h5><u>Templated Static Site Generator</u></h5>
+                                <h5><u>Instagram Clone</u></h5>
                             </div>
                             <div class="card-body">
-                                <p class="card-text">Instagram clone implemented with static site generation. Includes shell scripts to automate testing, deployment, and development. Took in HTML templates & JSON files as input and outputted website as static content.</p>
-                                <p class="card-text text-muted text-weight-light">Python, HTML, CSS, Jinja2</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h5><u>Stock Market Emulator</u></h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">Designed and implemented efficient C++ algorithm to automatically match buy and sell orders between various traders and multiple stock options. Included additional functionality to determine when was the correct time to optimize profits.</p>
-                                <p class="card-text text-muted text-weight-light">C++</p>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <div class="card-header">
-                                <h5><u>LC-2K ISA</u></h5>
-                            </div>
-                            <div class="card-body">
-                                <p class="card-text">C program that takes in assembly-language program and translate it into machine language. Output is 32-bit instructions, and project was tested rigorously and has robust error-checking.</p>
-                                <p class="card-text text-muted text-weight-light">C</p>
+                                <p class="card-text">Full-stack Instagram recreation. Made with a Flask backend utilizing SQLite for the database and a React frontend. Deployed to AWS for full scalability.</p>
+                                <p class="card-text text-muted text-weight-light">Python, Flask, React, SQLite, HTML, CSS</p>
                             </div>
                         </div>
                     </div>
@@ -345,7 +344,7 @@
     </div>
     <footer class="border-top footer text-muted">
         <div class="container text-center">
-            Ryan Heidema &copy; 2020
+            Ryan Heidema &copy; 2021
         </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
